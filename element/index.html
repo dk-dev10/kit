@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../font.css" />
+    <title>Element</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="cont">
+      <div class="ways">
+        <div class="slider__wrapper">
+          <h1>What the Experts are Saying</h1>
+          <div class="swiper sample-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="expert__say">
+                  <p class="expert__text">
+                    “The noise cancellation on these earbuds is easily top
+                    tier.”
+                  </p>
+
+                  <div class="expert">
+                    <img src="../assets/icons/youtube.svg" alt="" />
+                    <p class="expert__name">
+                      @FlossyCarter <br />
+                      Tech Reviewer
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="expert__say">
+                  <p class="expert__text">
+                    “These deliver superior audio experience across all
+                    frequency ranges.”
+                  </p>
+
+                  <div class="expert">
+                    <img src="../assets/icons/youtube.svg" alt="" />
+                    <p class="expert__name">
+                      @FlossyCarter <br />
+                      Tech Reviewer
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="expert__say">
+                  <p class="expert__text">
+                    “How do they sound on phone calls? These headphones sound
+                    great.”
+                  </p>
+
+                  <div class="expert">
+                    <img src="../assets/icons/youtube.svg" alt="" />
+                    <p class="expert__name">
+                      @FlossyCarter <br />
+                      Tech Reviewer
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const swiper = new Swiper('.sample-slider', {
+        slidesPerView: 1.4,
+        centeredSlides: true,
+        spaceBetween: 10,
+        pagination: {
+          //pagination(dots)
+          el: '.swiper-pagination',
+        },
+      });
+    </script>
+  </body>
+</html>

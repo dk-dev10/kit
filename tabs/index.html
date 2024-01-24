@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../font.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Size:</h1>
+      <div class="tabs">
+        <label for="small" class="tab tab-active">
+          <input type="radio" name="tab" id="small" value="small" />
+          <img src="../assets/Blood.png" alt="blood" />
+          <p class="tab-title">small</p>
+        </label>
+        <label for="regular" class="tab regular">
+          <input type="radio" name="tab" id="regular" value="regular" checked />
+          <img src="../assets/Blood.png" alt="blood" />
+          <p class="tab-title">regular</p>
+        </label>
+        <label for="large" class="tab">
+          <input type="radio" name="tab" id="large" value="large" />
+          <img src="../assets/Blood.png" alt="blood" />
+          <p class="tab-title">large</p>
+        </label>
+      </div>
+      <div class="tab_content">
+        <p class="tab-info" data-type="small">
+          Small (16.5 x 27.5"). <br />
+          Perfect for small standing showers or for tiny bathrooms
+        </p>
+        <p class="tab-info active" data-type="regular">
+          Regular (16.5 x 39.3"). <br />
+          The most popular size use outside of bathtubs or showers
+        </p>
+        <p class="tab-info" data-type="large">
+          Large (25.5 x 39.3"). <br />
+          An incredible size
+        </p>
+      </div>
+    </div>
+
+    <script>
+      const tabs = document.querySelectorAll('.tab input');
+      const infos = document.querySelectorAll('.tab-info');
+
+      tabs.forEach((tab) => {
+        tab.addEventListener('click', (e) => {
+          infos.forEach((i) => {
+            if (e.target.value === i.getAttribute('data-type')) {
+              i.classList.add('active');
+            } else {
+              i.classList.remove('active');
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

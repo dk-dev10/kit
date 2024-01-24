@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 23px 10px 63px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  display: none;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.tab {
+  width: 66px;
+  height: 53px;
+  position: relative;
+}
+
+.tab img {
+  filter: saturate(0);
+}
+
+.regular {
+  width: 77px;
+}
+
+.tab img {
+  width: 100%;
+  height: 100%;
+}
+
+.tab-title {
+  position: absolute;
+  font-family: 'Bloody';
+  left: 60%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.tab input:checked ~ img {
+  filter: saturate(1);
+}
+
+.tab_content {
+  margin-top: 12px;
+  text-align: center;
+  position: relative;
+}
+
+.tab-info {
+  display: none;
+}
+
+.active {
+  display: block;
+}
