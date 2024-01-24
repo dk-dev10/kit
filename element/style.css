@@ -79,7 +79,7 @@ h1 {
 
 .expert__say {
   background-color: #fff;
-  width: 290px;
+  width: fit-content;
   min-height: 170px;
   padding: 15px;
   border-radius: 30px;
