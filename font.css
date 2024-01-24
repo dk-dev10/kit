@@ -2,47 +2,47 @@
 
 @font-face {
   font-family: 'Bloody';
-  src: url(../assets/fonts/BloodyScaryRegular.ttf) format('truetype');
+  src: url(assets/fonts/BloodyScaryRegular.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Neuzeit';
-  src: url(../assets/fonts/NeuzeitGroCon-Bla.ttf) format('truetype');
+  src: url(assets/fonts/NeuzeitGroCon-Bla.ttf) format('truetype');
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: 'Neuzeit';
-  src: url(../assets/fonts/NeuzeitGro-Bol.ttf) format('truetype');
+  src: url(assets/fonts/NeuzeitGro-Bol.ttf) format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Neuzeit';
-  src: url(../assets/fonts/NeuzeitGroExt-Bla.ttf) format('truetype');
+  src: url(assets/fonts/NeuzeitGroExt-Bla.ttf) format('truetype');
   font-weight: 950;
   font-style: normal;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url(../assets/fonts/Gilroy-Regular.ttf) format('truetype');
+  src: url(assets/fonts/Gilroy-Regular.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url(../assets/fonts/Gilroy-Medium.ttf) format('truetype');
+  src: url(assets/fonts/Gilroy-Medium.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url(../assets/fonts/Gilroy-Semibold.ttf) format('truetype');
+  src: url(assets/fonts/Gilroy-Semibold.ttf) format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url(../assets/fonts/Gilroy-SemiboldItalic.ttf) format('truetype');
+  src: url(assets/fonts/Gilroy-SemiboldItalic.ttf) format('truetype');
   font-weight: 700;
   font-style: italic;
 }
